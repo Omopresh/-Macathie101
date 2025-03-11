@@ -1,0 +1,27 @@
+09:55:11.928 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\KTL-PC-0016-1\OneDrive\seleniumwebdriver\Macathie101\master.xml"
+09:55:24.414 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** starting TC001_AccountRegistrationtest  *****
+09:55:24.414 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on HomePage Link..
+09:55:29.529 [main] INFO  testCases.TC001_AccountRegistrationTest - Handling pop-up on Home Page...
+09:55:55.538 [main] INFO  testCases.TC002_LoginTest - *** Starting TC_002_LoginTest ***
+09:56:00.541 [main] INFO  testCases.TC002_LoginTest - ***Handling pop-up on Home Page***
+09:58:56.425 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\KTL-PC-0016-1\OneDrive\seleniumwebdriver\Macathie101\master.xml"
+09:58:57.554 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\KTL-PC-0016-1\OneDrive\seleniumwebdriver\Macathie101\master.xml
+
+09:59:04.147 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** starting TC001_AccountRegistrationtest  *****
+09:59:04.148 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on HomePage Link..
+09:59:09.237 [main] INFO  testCases.TC001_AccountRegistrationTest - Handling pop-up on Home Page...
+09:59:17.998 [main] INFO  testCases.TC002_LoginTest - *** Starting TC_002_LoginTest ***
+09:59:23.003 [main] INFO  testCases.TC002_LoginTest - ***Handling pop-up on Home Page***
+14:21:55.005 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\KTL-PC-0016-1\OneDrive\seleniumwebdriver\Macathie101\master.xml"
+14:22:09.297 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** starting TC001_AccountRegistrationtest  *****
+14:22:09.305 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on HomePage Link..
+14:22:14.626 [main] INFO  testCases.TC001_AccountRegistrationTest - Handling pop-up on Home Page...
+14:22:44.822 [main] INFO  testCases.TC002_LoginTest - *** Starting TC_002_LoginTest ***
+14:22:49.829 [main] INFO  testCases.TC002_LoginTest - ***Handling pop-up on Home Page***
+14:25:36.455 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\KTL-PC-0016-1\OneDrive\seleniumwebdriver\Macathie101\master.xml"
+14:25:45.129 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** starting TC001_AccountRegistrationtest  *****
+14:25:45.130 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on HomePage Link..
+14:25:50.241 [main] INFO  testCases.TC001_AccountRegistrationTest - Handling pop-up on Home Page...
+14:25:57.915 [main] INFO  testCases.TC002_LoginTest - *** Starting TC_002_LoginTest ***
+14:26:02.927 [main] INFO  testCases.TC002_LoginTest - ***Handling pop-up on Home Page***
