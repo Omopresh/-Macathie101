@@ -1,12 +1,8 @@
 package pageObjects;
 
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage{
 
@@ -33,8 +29,19 @@ public class HomePage extends BasePage{
 	 @FindBy(xpath="//button[@routerlink='/login' and contains(@class, 'get-started-btn') and normalize-space(text())='Login']")
 	 WebElement lnkLogin;
 	 
-
+	 
+	 @FindBy(xpath="//input[@type='search' and @formcontrolname='productSearch']")
+	 		
+		WebElement txtProductName;
+		
+		@FindBy(xpath="//span[@class='input-group-text bg-transparent border-0']//img[@alt='search']")
+		WebElement SearchIcon;
 	  
+	 
+	 
+	 
+	 
+	 
 	 
 	// Using the common method from BasePage
 	    public void clickDropdown() {
@@ -60,5 +67,13 @@ public class HomePage extends BasePage{
 	    }
 	 
 	 
-	 
+	    public void enterProductName(String search)
+		{
+			txtProductName.sendKeys("pears");
+		}
+		
+	    public WebElement getSearchIcon() {
+	        return SearchIcon;  // Ensure chkSearch is correctly defined
+	    }
+
 }

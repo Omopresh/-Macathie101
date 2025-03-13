@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-10T14:25:37 WAT" name=" Master Suite" finished-at="2025-03-10T14:26:27 WAT" duration-ms="49970">
+  <suite started-at="2025-03-12T10:20:56 WAT" name=" Master Suite" finished-at="2025-03-12T10:22:20 WAT" duration-ms="84037">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@1c33c17b]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_LoginTest.Verify_Login()[pri:0, instance:testCases.TC002_LoginTest@6ce86ce1]" name="Verify_Login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@32c726ee]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_LoginTest.Verify_Login()[pri:0, instance:testCases.TC002_LoginTest@2c4d1ac]" name="Verify_Login" class="testCases.TC002_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@1c33c17b]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@32c726ee]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC002_LoginTest.Verify_Login()[pri:0, instance:testCases.TC002_LoginTest@6ce86ce1]" name="Verify_Login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.Verify_Login()[pri:0, instance:testCases.TC002_LoginTest@2c4d1ac]" name="Verify_Login" class="testCases.TC002_LoginTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-03-10T14:25:37 WAT" name="Test" finished-at="2025-03-10T14:26:27 WAT" duration-ms="49970">
+    <test started-at="2025-03-12T10:20:56 WAT" name="Test" finished-at="2025-03-12T10:22:20 WAT" duration-ms="84037">
       <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@6ce86ce1]" started-at="2025-03-10T14:25:53 WAT" name="setup" finished-at="2025-03-10T14:25:57 WAT" duration-ms="4488" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@2c4d1ac]" started-at="2025-03-12T10:21:45 WAT" name="setup" finished-at="2025-03-12T10:21:51 WAT" duration-ms="5778" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Login()[pri:0, instance:testCases.TC002_LoginTest@6ce86ce1]" started-at="2025-03-10T14:25:57 WAT" name="Verify_Login" finished-at="2025-03-10T14:26:26 WAT" duration-ms="28144" status="FAIL">
+        <test-method signature="Verify_Login()[pri:0, instance:testCases.TC002_LoginTest@2c4d1ac]" started-at="2025-03-12T10:21:51 WAT" name="Verify_Login" finished-at="2025-03-12T10:22:19 WAT" duration-ms="28185" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -79,13 +79,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@6ce86ce1]" started-at="2025-03-10T14:26:26 WAT" name="tearDown" finished-at="2025-03-10T14:26:27 WAT" duration-ms="802" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@2c4d1ac]" started-at="2025-03-12T10:22:19 WAT" name="tearDown" finished-at="2025-03-12T10:22:20 WAT" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC002_LoginTest -->
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@1c33c17b]" started-at="2025-03-10T14:25:37 WAT" name="setup" finished-at="2025-03-10T14:25:45 WAT" duration-ms="7507" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@32c726ee]" started-at="2025-03-12T10:20:56 WAT" name="setup" finished-at="2025-03-12T10:21:15 WAT" duration-ms="19318" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@1c33c17b]" started-at="2025-03-10T14:25:45 WAT" name="verify_account_registration" finished-at="2025-03-10T14:25:53 WAT" duration-ms="8180" status="FAIL">
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@32c726ee]" started-at="2025-03-12T10:21:15 WAT" name="verify_account_registration" finished-at="2025-03-12T10:21:44 WAT" duration-ms="28598" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -147,7 +147,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@1c33c17b]" started-at="2025-03-10T14:25:53 WAT" name="tearDown" finished-at="2025-03-10T14:25:53 WAT" duration-ms="56" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@32c726ee]" started-at="2025-03-12T10:21:44 WAT" name="tearDown" finished-at="2025-03-12T10:21:45 WAT" duration-ms="692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 53.37 s <<< FAILURE! -- in TestSuite
-testCases.TC001_AccountRegistrationTest.verify_account_registration -- Time elapsed: 8.281 s <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 87.73 s <<< FAILURE! -- in TestSuite
+testCases.TC001_AccountRegistrationTest.verify_account_registration -- Time elapsed: 28.86 s <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
@@ -38,7 +38,7 @@ java.lang.AssertionError: null
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-testCases.TC002_LoginTest.Verify_Login -- Time elapsed: 28.31 s <<< FAILURE!
+testCases.TC002_LoginTest.Verify_Login -- Time elapsed: 28.46 s <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
